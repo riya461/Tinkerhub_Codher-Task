@@ -1,0 +1,4 @@
+#Sun Oct 09 03:23:13 IST 2022
+base.0=/home/user/Desktop/Learnings/Flutter/ui/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
