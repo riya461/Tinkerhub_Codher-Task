@@ -28,9 +28,8 @@ class MyApp extends StatelessWidget {
 ListView(
   padding: const EdgeInsets.all(8),
 
-            
-               
   children: <Widget>[
+   
     SafeArea(
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.end,
@@ -38,20 +37,28 @@ ListView(
                       
                       Image.asset(
                         'images/female.png',
-                        fit: BoxFit.cover,
+                        fit: BoxFit.contain,
                         height: 60,
                         width: 50,
                       ),
                     ],
                   ),
-                ),
-                      
+                ),      
       CircleAvatar(
-          backgroundColor: Colors.blue,
-          foregroundImage: AssetImage('images/riya3.png'),
+        
 
-          radius: 100,
-          //Text
+          radius: 80,
+          // 
+          backgroundColor: Colors.blue,
+           
+    child: ClipOval(
+            
+            child: Image.asset('images/riya.jpg'),
+
+          ),
+          
+          
+          // Text
         ),
     const Text(
                   'Riya Sabu',
@@ -164,5 +171,3 @@ ListView(
     
   }
 }
-
-//ffFFF
